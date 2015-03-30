@@ -1,0 +1,263 @@
+﻿生成启动时间为 2014/6/30 15:57:05。
+     1>项目“D:\学习\WorkInBJ\ZJJ\ML_GVIDMW_DLL 3.1\MFC_Demo\MFC_Demo.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\software\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\学习\WorkInBJ\ZJJ\ML_GVIDMW_DLL 3.1\MFC_Demo\Debug\MFC_Demo.exe" /INCREMENTAL /NOLOGO /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\software\VS2012\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\学习\WorkInBJ\ZJJ\ML_GVIDMW_DLL 3.1\MFC_Demo\Debug\MFC_Demo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\学习\WorkInBJ\ZJJ\ML_GVIDMW_DLL 3.1\MFC_Demo\Debug\MFC_Demo.lib" /MACHINE:X86 /SAFESEH Debug\MFC_Demo.res
+         Debug\MFC_Demo.obj
+         Debug\MFC_DemoDlg.obj
+         Debug\stdafx.obj
+     1>MFC_Demo.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>LINK : error LNK2001: 无法解析的外部符号 _wWinMainCRTStartup
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 __afxForceEXCLUDE
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 __afxForceEXCLUDE
+     1>stdafx.obj : error LNK2001: 无法解析的外部符号 __afxForceEXCLUDE
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 __afxForceSTDAFX
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 __afxForceSTDAFX
+     1>stdafx.obj : error LNK2001: 无法解析的外部符号 __afxForceSTDAFX
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>stdafx.obj : error LNK2001: 无法解析的外部符号 "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: void __thiscall CWinApp::OnHelp(void)" (?OnHelp@CWinApp@@IAEXXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: static struct AFX_MSGMAP const * __stdcall CWinApp::GetThisMessageMap(void)" (?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 _atexit，该符号在函数 "void __cdecl `dynamic initializer for 'theApp''(void)" (??__EtheApp@@YAXXZ) 中被引用
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 __imp__InitCommonControlsEx@4，该符号在函数 "public: virtual int __thiscall CMFC_DemoApp::InitInstance(void)" (?InitInstance@CMFC_DemoApp@@UAEHXZ) 中被引用
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "public: static void __stdcall CObject::operator delete(void *)" (??3CObject@@SGXPAX@Z)，该符号在函数 "public: virtual void * __thiscall CMFC_DemoApp::`scalar deleting destructor'(unsigned int)" (??_GCMFC_DemoApp@@UAEPAXI@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: static void __stdcall CObject::operator delete(void *)" (??3CObject@@SGXPAX@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CObject::Serialize(class CArchive &)" (?Serialize@CObject@@UAEXAAVCArchive@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CObject::Serialize(class CArchive &)" (?Serialize@CObject@@UAEXAAVCArchive@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CCmdTarget::OnCmdMsg(unsigned int,int,void *,struct AFX_CMDHANDLERINFO *)" (?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CCmdTarget::OnFinalRelease(void)" (?OnFinalRelease@CCmdTarget@@UAEXXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CCmdTarget::IsInvokeAllowed(long)" (?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CCmdTarget::IsInvokeAllowed(long)" (?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CCmdTarget::GetDispatchIID(struct _GUID *)" (?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CCmdTarget::GetDispatchIID(struct _GUID *)" (?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual unsigned int __thiscall CCmdTarget::GetTypeInfoCount(void)" (?GetTypeInfoCount@CCmdTarget@@UAEIXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual unsigned int __thiscall CCmdTarget::GetTypeInfoCount(void)" (?GetTypeInfoCount@CCmdTarget@@UAEIXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CTypeLibCache * __thiscall CCmdTarget::GetTypeLibCache(void)" (?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CTypeLibCache * __thiscall CCmdTarget::GetTypeLibCache(void)" (?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CCmdTarget::GetTypeLib(unsigned long,struct ITypeLib * *)" (?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CCmdTarget::GetTypeLib(unsigned long,struct ITypeLib * *)" (?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_OLECMDMAP const * __thiscall CCmdTarget::GetCommandMap(void)const " (?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_OLECMDMAP const * __thiscall CCmdTarget::GetCommandMap(void)const " (?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_DISPMAP const * __thiscall CCmdTarget::GetDispatchMap(void)const " (?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_DISPMAP const * __thiscall CCmdTarget::GetDispatchMap(void)const " (?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_CONNECTIONMAP const * __thiscall CCmdTarget::GetConnectionMap(void)const " (?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_CONNECTIONMAP const * __thiscall CCmdTarget::GetConnectionMap(void)const " (?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_INTERFACEMAP const * __thiscall CCmdTarget::GetInterfaceMap(void)const " (?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_EVENTSINKMAP const * __thiscall CCmdTarget::GetEventSinkMap(void)const " (?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_EVENTSINKMAP const * __thiscall CCmdTarget::GetEventSinkMap(void)const " (?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CCmdTarget::OnCreateAggregates(void)" (?OnCreateAggregates@CCmdTarget@@UAEHXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CCmdTarget::OnCreateAggregates(void)" (?OnCreateAggregates@CCmdTarget@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct IUnknown * __thiscall CCmdTarget::GetInterfaceHook(void const *)" (?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct IUnknown * __thiscall CCmdTarget::GetInterfaceHook(void const *)" (?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CCmdTarget::GetExtraConnectionPoints(class CPtrArray *)" (?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CCmdTarget::GetExtraConnectionPoints(class CPtrArray *)" (?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct IConnectionPoint * __thiscall CCmdTarget::GetConnectionHook(struct _GUID const &)" (?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct IConnectionPoint * __thiscall CCmdTarget::GetConnectionHook(struct _GUID const &)" (?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall CDialog::DoModal(void)" (?DoModal@CDialog@@UAEHXZ)，该符号在函数 "public: virtual int __thiscall CMFC_DemoApp::InitInstance(void)" (?InitInstance@CMFC_DemoApp@@UAEHXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::DoModal(void)" (?DoModal@CDialog@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall CDialog::~CDialog(void)" (??1CDialog@@UAE@XZ)，该符号在函数 "public: virtual __thiscall CMFC_DemoDlg::~CMFC_DemoDlg(void)" (??1CMFC_DemoDlg@@UAE@XZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall CDialog::~CDialog(void)" (??1CDialog@@UAE@XZ)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall CButton::~CButton(void)" (??1CButton@@UAE@XZ)，该符号在函数 "public: virtual __thiscall CMFC_DemoDlg::~CMFC_DemoDlg(void)" (??1CMFC_DemoDlg@@UAE@XZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall CButton::~CButton(void)" (??1CButton@@UAE@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinThread::PreTranslateMessage(struct tagMSG *)" (?PreTranslateMessage@CWinThread@@UAEHPAUtagMSG@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinThread::PumpMessage(void)" (?PumpMessage@CWinThread@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinThread::IsIdleMessage(struct tagMSG *)" (?IsIdleMessage@CWinThread@@UAEHPAUtagMSG@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinThread::ProcessMessageFilter(int,struct tagMSG *)" (?ProcessMessageFilter@CWinThread@@UAEHHPAUtagMSG@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CWnd * __thiscall CWinThread::GetMainWnd(void)" (?GetMainWnd@CWinThread@@UAEPAVCWnd@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinThread::Delete(void)" (?Delete@CWinThread@@UAEXXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct CRuntimeClass * __thiscall CWinApp::GetRuntimeClass(void)const " (?GetRuntimeClass@CWinApp@@UBEPAUCRuntimeClass@@XZ)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall CWinApp::CWinApp(wchar_t const *)" (??0CWinApp@@QAE@PB_W@Z)，该符号在函数 "public: __thiscall CMFC_DemoApp::CMFC_DemoApp(void)" (??0CMFC_DemoApp@@QAE@XZ) 中被引用
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "protected: void __thiscall CWinApp::SetRegistryKey(wchar_t const *)" (?SetRegistryKey@CWinApp@@IAEXPB_W@Z)，该符号在函数 "public: virtual int __thiscall CMFC_DemoApp::InitInstance(void)" (?InitInstance@CMFC_DemoApp@@UAEHXZ) 中被引用
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual unsigned int __thiscall CWinApp::GetProfileIntW(wchar_t const *,wchar_t const *,int)" (?GetProfileIntW@CWinApp@@UAEIPB_W0H@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::WriteProfileInt(wchar_t const *,wchar_t const *,int)" (?WriteProfileInt@CWinApp@@UAEHPB_W0H@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > __thiscall CWinApp::GetProfileStringW(wchar_t const *,wchar_t const *,wchar_t const *)" (?GetProfileStringW@CWinApp@@UAE?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@PB_W00@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::WriteProfileStringW(wchar_t const *,wchar_t const *,wchar_t const *)" (?WriteProfileStringW@CWinApp@@UAEHPB_W00@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::GetProfileBinary(wchar_t const *,wchar_t const *,unsigned char * *,unsigned int *)" (?GetProfileBinary@CWinApp@@UAEHPB_W0PAPAEPAI@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::WriteProfileBinary(wchar_t const *,wchar_t const *,unsigned char *,unsigned int)" (?WriteProfileBinary@CWinApp@@UAEHPB_W0PAEI@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::InitLibId(void)" (?InitLibId@CWinApp@@UAEXXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::Register(void)" (?Register@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::Unregister(void)" (?Unregister@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CDocument * __thiscall CWinApp::OpenDocumentFile(wchar_t const *)" (?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PB_W@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CDocument * __thiscall CWinApp::OpenDocumentFile(wchar_t const *,int)" (?OpenDocumentFile@CWinApp@@UAEPAVCDocument@@PB_WH@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::AddToRecentFileList(wchar_t const *)" (?AddToRecentFileList@CWinApp@@UAEXPB_W@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::InitApplication(void)" (?InitApplication@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::SaveAllModified(void)" (?SaveAllModified@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::DoMessageBox(wchar_t const *,unsigned int,unsigned int)" (?DoMessageBox@CWinApp@@UAEHPB_WII@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::DoWaitCursor(int)" (?DoWaitCursor@CWinApp@@UAEXH@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::OnDDECommand(wchar_t *)" (?OnDDECommand@CWinApp@@UAEHPA_W@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::WinHelpW(unsigned long,unsigned int)" (?WinHelpW@CWinApp@@UAEXKI@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::HtmlHelpW(unsigned long,unsigned int)" (?HtmlHelpW@CWinApp@@UAEXKI@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::WinHelpInternal(unsigned long,unsigned int)" (?WinHelpInternal@CWinApp@@UAEXKI@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWinApp::RegisterWithRestartManager(int,class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > const &)" (?RegisterWithRestartManager@CWinApp@@UAEJHABV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWinApp::RegisterWithRestartManager(wchar_t const *,unsigned long,unsigned long (__stdcall*)(void *),void *,unsigned long,unsigned long)" (?RegisterWithRestartManager@CWinApp@@UAEJPB_WKP6GKPAX@Z1KK@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual unsigned long __thiscall CWinApp::ApplicationRecoveryCallback(void *)" (?ApplicationRecoveryCallback@CWinApp@@UAEKPAX@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CDataRecoveryHandler * __thiscall CWinApp::GetDataRecoveryHandler(void)" (?GetDataRecoveryHandler@CWinApp@@UAEPAVCDataRecoveryHandler@@XZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::IsTaskbarInteractionEnabled(void)" (?IsTaskbarInteractionEnabled@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::InitInstance(void)" (?InitInstance@CWinApp@@UAEHXZ)，该符号在函数 "public: virtual int __thiscall CMFC_DemoApp::InitInstance(void)" (?InitInstance@CMFC_DemoApp@@UAEHXZ) 中被引用
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::ExitInstance(void)" (?ExitInstance@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::RestartInstance(void)" (?RestartInstance@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::Run(void)" (?Run@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::OnIdle(long)" (?OnIdle@CWinApp@@UAEHJ@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWinApp::ProcessWndProcException(class CException *,struct tagMSG const *)" (?ProcessWndProcException@CWinApp@@UAEJPAVCException@@PBUtagMSG@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct HINSTANCE__ * __thiscall CWinApp::LoadAppLangResourceDLL(void)" (?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall CWinApp::~CWinApp(void)" (??1CWinApp@@UAE@XZ)，该符号在函数 "public: virtual __thiscall CMFC_DemoApp::~CMFC_DemoApp(void)" (??1CMFC_DemoApp@@UAE@XZ) 中被引用
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::AssertValid(void)const " (?AssertValid@CWinApp@@UBEXXZ)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWinApp::Dump(class CDumpContext &)const " (?Dump@CWinApp@@UBEXAAVCDumpContext@@@Z)
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWinApp::LoadSysPolicies(void)" (?LoadSysPolicies@CWinApp@@UAEHXZ)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 "void __cdecl AfxEnableControlContainer(class COccManager *)" (?AfxEnableControlContainer@@YAXPAVCOccManager@@@Z)，该符号在函数 "public: virtual int __thiscall CMFC_DemoApp::InitInstance(void)" (?InitInstance@CMFC_DemoApp@@UAEHXZ) 中被引用
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 @_RTC_CheckStackVars@8，该符号在函数 "public: virtual int __thiscall CMFC_DemoApp::InitInstance(void)" (?InitInstance@CMFC_DemoApp@@UAEHXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 @_RTC_CheckStackVars@8
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 @__security_check_cookie@4，该符号在函数 __unwindfunclet$??1CMFC_DemoDlg@@UAE@XZ$0 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 @__security_check_cookie@4
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 __RTC_CheckEsp，该符号在函数 "public: __thiscall CMFC_DemoApp::CMFC_DemoApp(void)" (??0CMFC_DemoApp@@QAE@XZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>stdafx.obj : error LNK2001: 无法解析的外部符号 __RTC_CheckEsp
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>stdafx.obj : error LNK2001: 无法解析的外部符号 __RTC_InitBase
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>stdafx.obj : error LNK2001: 无法解析的外部符号 __RTC_Shutdown
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 ___CxxFrameHandler3，该符号在函数 __unwindfunclet$??1CMFC_DemoDlg@@UAE@XZ$0 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 ___CxxFrameHandler3
+     1>MFC_Demo.obj : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "const type_info::`vftable'" (??_7type_info@@6B@)
+     1>MFC_Demo.obj : error LNK2019: 无法解析的外部符号 ___security_cookie，该符号在函数 "public: virtual __thiscall CMFC_DemoDlg::~CMFC_DemoDlg(void)" (??1CMFC_DemoDlg@@UAE@XZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 ___security_cookie
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: static struct AFX_MSGMAP const * __stdcall CDialog::GetThisMessageMap(void)" (?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__CreateCompatibleDC@4，该符号在函数 "int __cdecl drawBitmap(struct HDC__ *,wchar_t const *,struct tagRECT &)" (?drawBitmap@@YAHPAUHDC__@@PB_WAAUtagRECT@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__CreateSolidBrush@4，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnDraw(void)" (?OnBnClickedBtnDraw@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__DeleteDC@4，该符号在函数 "int __cdecl drawBitmap(struct HDC__ *,wchar_t const *,struct tagRECT &)" (?drawBitmap@@YAHPAUHDC__@@PB_WAAUtagRECT@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__DeleteObject@4，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnDraw(void)" (?OnBnClickedBtnDraw@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__Ellipse@20，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnDraw(void)" (?OnBnClickedBtnDraw@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__SelectObject@8，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnDraw(void)" (?OnBnClickedBtnDraw@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__StretchBlt@44，该符号在函数 "int __cdecl drawBitmap(struct HDC__ *,wchar_t const *,struct tagRECT &)" (?drawBitmap@@YAHPAUHDC__@@PB_WAAUtagRECT@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__GetObjectW@12，该符号在函数 "int __cdecl drawBitmap(struct HDC__ *,wchar_t const *,struct tagRECT &)" (?drawBitmap@@YAHPAUHDC__@@PB_WAAUtagRECT@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__GetSystemMetrics@4，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__LoadBitmapW@8，该符号在函数 "int __cdecl drawBitmap(struct HDC__ *,wchar_t const *,struct tagRECT &)" (?drawBitmap@@YAHPAUHDC__@@PB_WAAUtagRECT@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: wchar_t * __thiscall ATL::CSimpleStringT<wchar_t,1>::GetBuffer(void)" (__imp_?GetBuffer@?$CSimpleStringT@_W$00@ATL@@QAEPA_WXZ)，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >(void)" (__imp_??0?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@XZ)，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >::~CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >(void)" (__imp_??1?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAE@XZ)，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >::Format(wchar_t const *,...)" (__imp_?Format@?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@QAAXPB_WZZ)，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall CRect::CRect(void)" (??0CRect@@QAE@XZ)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CRect::Width(void)const " (?Width@CRect@@QBEHXZ)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CRect::Height(void)const " (?Height@CRect@@QBEHXZ)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: struct HDC__ * __thiscall CDC::GetSafeHdc(void)const " (?GetSafeHdc@CDC@@QBEPAUHDC__@@XZ)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CDC::DrawIcon(int,int,struct HICON__ *)" (?DrawIcon@CDC@@QAEHHHPAUHICON__@@@Z)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall CPaintDC::CPaintDC(class CWnd *)" (??0CPaintDC@@QAE@PAVCWnd@@@Z)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: virtual __thiscall CPaintDC::~CPaintDC(void)" (??1CPaintDC@@UAE@XZ)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "void __stdcall DDX_Control(class CDataExchange *,int,class CWnd &)" (?DDX_Control@@YGXPAVCDataExchange@@HAAVCWnd@@@Z)，该符号在函数 "protected: virtual void __thiscall CMFC_DemoDlg::DoDataExchange(class CDataExchange *)" (?DoDataExchange@CMFC_DemoDlg@@MAEXPAVCDataExchange@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::PreSubclassWindow(void)" (?PreSubclassWindow@CWnd@@UAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::Create(wchar_t const *,wchar_t const *,unsigned long,struct tagRECT const &,class CWnd *,unsigned int,struct CCreateContext *)" (?Create@CWnd@@UAEHPB_W0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::CreateEx(unsigned long,wchar_t const *,wchar_t const *,unsigned long,int,int,int,int,struct HWND__ *,struct HMENU__ *,void *)" (?CreateEx@CWnd@@UAEHKPB_W0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::CreateEx(unsigned long,wchar_t const *,wchar_t const *,unsigned long,struct tagRECT const &,class CWnd *,unsigned int,void *)" (?CreateEx@CWnd@@UAEHKPB_W0KABUtagRECT@@PAV1@IPAX@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::DestroyWindow(void)" (?DestroyWindow@CWnd@@UAEHXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::PreCreateWindow(struct tagCREATESTRUCTW &)" (?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTW@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::CalcWindowRect(struct tagRECT *,unsigned int)" (?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z)
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: long __thiscall CWnd::SendMessageW(unsigned int,unsigned int,long)const " (?SendMessageW@CWnd@@QBEJIIJ@Z)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CMenu * __thiscall CWnd::GetMenu(void)const " (?GetMenu@CWnd@@UBEPAVCMenu@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::SetMenu(class CMenu *)" (?SetMenu@CWnd@@UAEHPAVCMenu@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CWnd::IsIconic(void)const " (?IsIconic@CWnd@@QBEHXZ)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall CWnd::GetClientRect(struct tagRECT *)const " (?GetClientRect@CWnd@@QBEXPAUtagRECT@@@Z)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::OnToolHitTest(class CPoint,struct tagTOOLINFOW *)const " (?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOW@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class CScrollBar * __thiscall CWnd::GetScrollBarCtrl(int)const " (?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z)
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall CWnd::MessageBoxW(wchar_t const *,wchar_t const *,unsigned int)" (?MessageBoxW@CWnd@@QAEHPB_W0I@Z)，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: struct HICON__ * __thiscall CWnd::SetIcon(struct HICON__ *,int)" (?SetIcon@CWnd@@QAEPAUHICON__@@PAU2@H@Z)，该符号在函数 "protected: virtual int __thiscall CMFC_DemoDlg::OnInitDialog(void)" (?OnInitDialog@CMFC_DemoDlg@@MAEHXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::WinHelpW(unsigned long,unsigned int)" (?WinHelpW@CWnd@@UAEXKI@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::HtmlHelpW(unsigned long,unsigned int)" (?HtmlHelpW@CWnd@@UAEXKI@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::WinHelpInternal(unsigned long,unsigned int)" (?WinHelpInternal@CWnd@@UAEXKI@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::ContinueModal(void)" (?ContinueModal@CWnd@@UAEHXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::EndModalLoop(int)" (?EndModalLoop@CWnd@@UAEXH@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::OnDrawIconicThumbnailOrLivePreview(class CDC &,class CRect,class CSize,int,int &)" (?OnDrawIconicThumbnailOrLivePreview@CWnd@@UAEXAAVCDC@@VCRect@@VCSize@@HAAH@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct AFX_INTERFACEMAP const * __thiscall CWnd::GetInterfaceMap(void)const " (?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::EnsureStdObj(void)" (?EnsureStdObj@CWnd@@UAEJXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accParent(struct IDispatch * *)" (?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accChildCount(long *)" (?get_accChildCount@CWnd@@UAEJPAJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accChild(struct tagVARIANT,struct IDispatch * *)" (?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accName(struct tagVARIANT,wchar_t * *)" (?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accValue(struct tagVARIANT,wchar_t * *)" (?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accDescription(struct tagVARIANT,wchar_t * *)" (?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accRole(struct tagVARIANT,struct tagVARIANT *)" (?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accState(struct tagVARIANT,struct tagVARIANT *)" (?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accHelp(struct tagVARIANT,wchar_t * *)" (?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accHelpTopic(wchar_t * *,struct tagVARIANT,long *)" (?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accKeyboardShortcut(struct tagVARIANT,wchar_t * *)" (?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accFocus(struct tagVARIANT *)" (?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accSelection(struct tagVARIANT *)" (?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::get_accDefaultAction(struct tagVARIANT,wchar_t * *)" (?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::accSelect(long,struct tagVARIANT)" (?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::accLocation(long *,long *,long *,long *,struct tagVARIANT)" (?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::accNavigate(long,struct tagVARIANT,struct tagVARIANT *)" (?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::accHitTest(long,long,struct tagVARIANT *)" (?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::accDoDefaultAction(struct tagVARIANT)" (?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::put_accName(struct tagVARIANT,wchar_t *)" (?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::put_accValue(struct tagVARIANT,wchar_t *)" (?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::SetProxy(struct IAccessibleProxy *)" (?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual long __thiscall CWnd::CreateAccessibleProxy(unsigned int,long,long *)" (?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnCommand(unsigned int,long)" (?OnCommand@CWnd@@MAEHIJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnNotify(unsigned int,long,long *)" (?OnNotify@CWnd@@MAEHIJPAJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual long (__stdcall** __thiscall CWnd::GetSuperWndProcAddr(void))(struct HWND__ *,unsigned int,unsigned int,long)" (?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ)
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "protected: virtual void __thiscall CWnd::DoDataExchange(class CDataExchange *)" (?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z)，该符号在函数 "protected: virtual void __thiscall CMFC_DemoDlg::DoDataExchange(class CDataExchange *)" (?DoDataExchange@CMFC_DemoDlg@@MAEXPAVCDataExchange@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::BeginModalState(void)" (?BeginModalState@CWnd@@UAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::EndModalState(void)" (?EndModalState@CWnd@@UAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::OnAmbientProperty(class COleControlSite *,long,struct tagVARIANT *)" (?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual long __thiscall CWnd::WindowProc(unsigned int,unsigned int,long)" (?WindowProc@CWnd@@MAEJIIJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnWndMsg(unsigned int,unsigned int,long,long *)" (?OnWndMsg@CWnd@@MAEHIIJPAJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual long __thiscall CWnd::DefWindowProcW(unsigned int,unsigned int,long)" (?DefWindowProcW@CWnd@@MAEJIIJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall CWnd::PostNcDestroy(void)" (?PostNcDestroy@CWnd@@MAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnChildNotify(unsigned int,unsigned int,long,long *)" (?OnChildNotify@CWnd@@MAEHIIJPAJ@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnTouchInputs(unsigned int,struct tagTOUCHINPUT *)" (?OnTouchInputs@CWnd@@MAEHIPAUtagTOUCHINPUT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnTouchInput(class CPoint,int,int,struct tagTOUCHINPUT *)" (?OnTouchInput@CWnd@@MAEHVCPoint@@HHPAUtagTOUCHINPUT@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual unsigned long __thiscall CWnd::GetGestureStatus(class CPoint)" (?GetGestureStatus@CWnd@@MAEKVCPoint@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnGestureZoom(class CPoint,long)" (?OnGestureZoom@CWnd@@MAEHVCPoint@@J@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnGesturePan(class CPoint,class CPoint)" (?OnGesturePan@CWnd@@MAEHVCPoint@@0@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnGestureRotate(class CPoint,double)" (?OnGestureRotate@CWnd@@MAEHVCPoint@@N@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnGestureTwoFingerTap(class CPoint)" (?OnGestureTwoFingerTap@CWnd@@MAEHVCPoint@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::OnGesturePressAndTap(class CPoint,long)" (?OnGesturePressAndTap@CWnd@@MAEHVCPoint@@J@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CWnd::IsFrameWnd(void)const " (?IsFrameWnd@CWnd@@UBEHXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CWnd::OnFinalRelease(void)" (?OnFinalRelease@CWnd@@UAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::CreateControlContainer(class COleControlContainer * *)" (?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CWnd::CreateControlSite(class COleControlContainer *,class COleControlSite * *,unsigned int,struct _GUID const &)" (?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct CRuntimeClass * __thiscall CDialog::GetRuntimeClass(void)const " (?GetRuntimeClass@CDialog@@UBEPAUCRuntimeClass@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::Create(wchar_t const *,class CWnd *)" (?Create@CDialog@@UAEHPB_WPAVCWnd@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::Create(unsigned int,class CWnd *)" (?Create@CDialog@@UAEHIPAVCWnd@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::CreateIndirect(struct DLGTEMPLATE const *,class CWnd *,void *)" (?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::CreateIndirect(void *,class CWnd *)" (?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall CDialog::CDialog(unsigned int,class CWnd *)" (??0CDialog@@QAE@IPAVCWnd@@@Z)，该符号在函数 "public: __thiscall CMFC_DemoDlg::CMFC_DemoDlg(class CWnd *)" (??0CMFC_DemoDlg@@QAE@PAVCWnd@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall CDialog::OnInitDialog(void)" (?OnInitDialog@CDialog@@UAEHXZ)，该符号在函数 "protected: virtual int __thiscall CMFC_DemoDlg::OnInitDialog(void)" (?OnInitDialog@CMFC_DemoDlg@@MAEHXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CDialog::OnSetFont(class CFont *)" (?OnSetFont@CDialog@@UAEXPAVCFont@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall CDialog::OnOK(void)" (?OnOK@CDialog@@MAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall CDialog::OnCancel(void)" (?OnCancel@CDialog@@MAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CDialog::AssertValid(void)const " (?AssertValid@CDialog@@UBEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CDialog::Dump(class CDumpContext &)const " (?Dump@CDialog@@UBEXAAVCDumpContext@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::PreTranslateMessage(struct tagMSG *)" (?PreTranslateMessage@CDialog@@UAEHPAUtagMSG@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::OnCmdMsg(unsigned int,int,void *,struct AFX_CMDHANDLERINFO *)" (?OnCmdMsg@CDialog@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall CDialog::CheckAutoCenter(void)" (?CheckAutoCenter@CDialog@@UAEHXZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall CDialog::SetOccDialogInfo(struct _AFX_OCC_DIALOG_INFO *)" (?SetOccDialogInfo@CDialog@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual struct _AFX_OCC_DIALOG_INFO * __thiscall CDialog::GetOccDialogInfo(void)" (?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ)
+     1>MFC_DemoDlg.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall CDialog::PreInitDialog(void)" (?PreInitDialog@CDialog@@MAEXXZ)
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "protected: void __thiscall CDialog::OnPaint(void)" (?OnPaint@CDialog@@IAEXXZ)，该符号在函数 "protected: void __thiscall CMFC_DemoDlg::OnPaint(void)" (?OnPaint@CMFC_DemoDlg@@IAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall CButton::CButton(void)" (??0CButton@@QAE@XZ)，该符号在函数 "public: __thiscall CMFC_DemoDlg::CMFC_DemoDlg(class CWnd *)" (??0CMFC_DemoDlg@@QAE@PAVCWnd@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "class CWinApp * __stdcall AfxGetApp(void)" (?AfxGetApp@@YGPAVCWinApp@@XZ)，该符号在函数 "public: __thiscall CMFC_DemoDlg::CMFC_DemoDlg(class CWnd *)" (??0CMFC_DemoDlg@@QAE@PAVCWnd@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "struct HINSTANCE__ * __stdcall AfxGetInstanceHandle(void)" (?AfxGetInstanceHandle@@YGPAUHINSTANCE__@@XZ)，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnInit(void)" (?OnBnClickedBtnInit@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 "public: struct HICON__ * __thiscall CWinApp::LoadIconW(unsigned int)const " (?LoadIconW@CWinApp@@QBEPAUHICON__@@I@Z)，该符号在函数 "public: __thiscall CMFC_DemoDlg::CMFC_DemoDlg(class CWnd *)" (??0CMFC_DemoDlg@@QAE@PAVCWnd@@@Z) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__ML_GVID_Init，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnInit(void)" (?OnBnClickedBtnInit@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__ML_GVID_OpenPPI，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__ML_GVID_SetPPIGate，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedButtonInc(void)" (?OnBnClickedButtonInc@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__ML_GVID_OpenAr，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__ML_GVID_OpenMiniWin，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__ML_GVID_OpenTV，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpentv(void)" (?OnBnClickedBtnOpentv@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__tshGetSurfaceDC，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnDraw(void)" (?OnBnClickedBtnDraw@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__tshReleaseSurfaceDC，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnDraw(void)" (?OnBnClickedBtnDraw@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__tshSetSurfaceColorKey，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__tshSetSurfaceVisible，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnInit(void)" (?OnBnClickedBtnInit@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__tshEraseSurface，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedBtnOpen(void)" (?OnBnClickedBtnOpen@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>MFC_DemoDlg.obj : error LNK2019: 无法解析的外部符号 __imp__tshSendTransparentData，该符号在函数 "public: void __thiscall CMFC_DemoDlg::OnBnClickedButtonTemp(void)" (?OnBnClickedButtonTemp@CMFC_DemoDlg@@QAEXXZ) 中被引用
+     1>stdafx.obj : error LNK2019: 无法解析的外部符号 __imp__InitializeCriticalSectionAndSpinCount@8，该符号在函数 "int __cdecl ATL::_AtlInitializeCriticalSectionEx(struct _RTL_CRITICAL_SECTION *,unsigned long,unsigned long)" (?_AtlInitializeCriticalSectionEx@ATL@@YAHPAU_RTL_CRITICAL_SECTION@@KK@Z) 中被引用
+     1>LINK : error LNK2001: 无法解析的外部符号 __load_config_used
+     1>D:\学习\WorkInBJ\ZJJ\ML_GVIDMW_DLL 3.1\MFC_Demo\Debug\MFC_Demo.exe : fatal error LNK1120: 214 个无法解析的外部命令
+     1>已完成生成项目“D:\学习\WorkInBJ\ZJJ\ML_GVIDMW_DLL 3.1\MFC_Demo\MFC_Demo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.03

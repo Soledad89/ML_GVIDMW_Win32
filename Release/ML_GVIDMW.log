@@ -1,0 +1,205 @@
+﻿生成启动时间为 2015/3/30 8:47:47。
+     1>项目“E:\ML_GVIDMW\ML_GVIDMW.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Release\ML_GVIDMW.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\ML_GVIDMW_DLL\TVlib /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ML_GVIDMW_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AR.cpp C_THU_ML_GVID.cpp Communication.cpp complex.cpp datapool.cpp layers.cpp mark.cpp ML_GVIDMW.cpp ML_GVIDMW_EXT.cpp mycolor.cpp mywidget.cpp netRadar.cpp painter.cpp pcidev.cpp ppi.cpp ppitime.cpp yh.cpp DrawingManager_DD.cpp TVlib\tv.cpp
+         AR.cpp
+     1>AR.cpp(314): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>AR.cpp(323): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AR.cpp(329): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AR.cpp(338): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>AR.cpp(344): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         C_THU_ML_GVID.cpp
+     1>e:\ml_gvidmw\Communication.h(43): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>e:\ml_gvidmw\Communication.h(44): warning C4094: 无标记的“struct”未声明符号
+         Communication.cpp
+     1>e:\ml_gvidmw\Communication.h(43): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>e:\ml_gvidmw\Communication.h(44): warning C4094: 无标记的“struct”未声明符号
+         complex.cpp
+     1>complex.cpp(57): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>complex.cpp(69): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>complex.cpp(70): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>complex.cpp(76): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>complex.cpp(77): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         datapool.cpp
+     1>datapool.cpp(140): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>datapool.cpp(402): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>datapool.cpp(420): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         layers.cpp
+         mark.cpp
+     1>mark.cpp(398): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>mark.cpp(399): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>mark.cpp(404): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mark.cpp(417): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>mark.cpp(418): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         ML_GVIDMW.cpp
+     1>e:\ml_gvidmw\Communication.h(43): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>e:\ml_gvidmw\Communication.h(44): warning C4094: 无标记的“struct”未声明符号
+     1>ML_GVIDMW.cpp(233): warning C4101: “port”: 未引用的局部变量
+     1>ML_GVIDMW.cpp(232): warning C4101: “str”: 未引用的局部变量
+     1>ML_GVIDMW.cpp(339): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ML_GVIDMW.cpp(373): warning C4101: “i”: 未引用的局部变量
+     1>ML_GVIDMW.cpp(372): warning C4101: “err”: 未引用的局部变量
+     1>ML_GVIDMW.cpp(557): warning C4101: “n”: 未引用的局部变量
+     1>ML_GVIDMW.cpp(666): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(681): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(816): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ML_GVIDMW.cpp(877): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(892): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(952): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(986): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(1002): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(1074): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ML_GVIDMW.cpp(1107): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(1141): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(1156): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ML_GVIDMW.cpp(1261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ML_GVIDMW.cpp(1269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>ML_GVIDMW.cpp(1372): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ML_GVIDMW.cpp(1430): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>ML_GVIDMW.cpp(1434): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>ML_GVIDMW.cpp(1438): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         ML_GVIDMW_EXT.cpp
+     1>e:\ml_gvidmw\Communication.h(43): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>e:\ml_gvidmw\Communication.h(44): warning C4094: 无标记的“struct”未声明符号
+         mycolor.cpp
+     1>mycolor.cpp(28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(32): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(36): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(36): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(36): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(37): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(37): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(37): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(38): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(38): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(38): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(39): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(39): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(39): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(40): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(40): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(40): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(41): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(41): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(41): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>mycolor.cpp(54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(56): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mycolor.cpp(119): warning C4244: “return”: 从“float”转换到“unsigned char”，可能丢失数据
+     1>mycolor.cpp(128): warning C4244: “return”: 从“float”转换到“unsigned char”，可能丢失数据
+         mywidget.cpp
+     1>mywidget.cpp(174): warning C4305: “=”: 从“double”到“float”截断
+     1>mywidget.cpp(412): warning C4805: “!=”: 在操作中将类型“bool”与类型“int”混合不安全
+     1>mywidget.cpp(414): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>mywidget.cpp(421): warning C4805: “!=”: 在操作中将类型“bool”与类型“int”混合不安全
+     1>mywidget.cpp(423): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>mywidget.cpp(713): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>mywidget.cpp(885): warning C4244: “=”: 从“short”转换到“unsigned char”，可能丢失数据
+     1>mywidget.cpp(887): warning C4244: “参数”: 从“short”转换到“unsigned char”，可能丢失数据
+         netRadar.cpp
+     1>e:\ml_gvidmw\Communication.h(43): warning C4200: 使用了非标准扩展 : 结构/联合中的零大小数组
+                 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>e:\ml_gvidmw\Communication.h(44): warning C4094: 无标记的“struct”未声明符号
+         painter.cpp
+     1>painter.cpp(88): warning C4309: “=”: 截断常量值
+     1>painter.cpp(88): warning C4309: “=”: 截断常量值
+     1>painter.cpp(116): warning C4309: “=”: 截断常量值
+     1>painter.cpp(116): warning C4309: “=”: 截断常量值
+     1>painter.cpp(117): warning C4309: “=”: 截断常量值
+     1>painter.cpp(117): warning C4309: “=”: 截断常量值
+     1>painter.cpp(117): warning C4309: “=”: 截断常量值
+     1>painter.cpp(117): warning C4309: “=”: 截断常量值
+     1>painter.cpp(118): warning C4309: “=”: 截断常量值
+     1>painter.cpp(118): warning C4309: “=”: 截断常量值
+     1>painter.cpp(118): warning C4309: “=”: 截断常量值
+     1>painter.cpp(118): warning C4309: “=”: 截断常量值
+     1>painter.cpp(154): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>painter.cpp(155): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>painter.cpp(168): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>painter.cpp(284): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>painter.cpp(293): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>painter.cpp(299): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>painter.cpp(308): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>painter.cpp(314): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>painter.cpp(392): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>painter.cpp(415): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>painter.cpp(415): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>painter.cpp(505): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>painter.cpp(542): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>painter.cpp(544): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>painter.cpp(688): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         pcidev.cpp
+         ppi.cpp
+     1>ppi.cpp(172): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>ppi.cpp(177): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>ppi.cpp(992): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(992): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(995): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(995): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(998): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(998): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(1001): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(1001): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>ppi.cpp(1091): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+         ppitime.cpp
+         yh.cpp
+         DrawingManager_DD.cpp
+     1>DrawingManager_DD.cpp(129): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>DrawingManager_DD.cpp(433): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>DrawingManager_DD.cpp(435): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>DrawingManager_DD.cpp(437): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>DrawingManager_DD.cpp(445): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>DrawingManager_DD.cpp(447): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>DrawingManager_DD.cpp(449): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+         tv.cpp
+     1>TVlib\tv.cpp(169): warning C4101: “rect”: 未引用的局部变量
+     1>TVlib\tv.cpp(188): warning C4101: “rect”: 未引用的局部变量
+     1>TVlib\tv.cpp(270): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>TVlib\tv.cpp(298): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         正在生成代码...
+     1>e:\ml_gvidmw\ppi.cpp(508): warning C4700: 使用了未初始化的局部变量“readytobreak”
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/ML_GVIDMW.dll" /INCREMENTAL:NO /NOLOGO IpCamSdk.dll HxPlayerSDK.dll GeVideoLib.dll kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\ML_GVIDMW.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release/ML_GVIDMW.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release/ML_GVIDMW.lib" /MACHINE:X86 /DLL .\Release/AR.obj
+         .\Release/C_THU_ML_GVID.obj
+         .\Release/Communication.obj
+         .\Release/complex.obj
+         .\Release/datapool.obj
+         .\Release/layers.obj
+         .\Release/mark.obj
+         .\Release/ML_GVIDMW.obj
+         .\Release/ML_GVIDMW_EXT.obj
+         .\Release/mycolor.obj
+         .\Release/mywidget.obj
+         .\Release/netRadar.obj
+         .\Release/painter.obj
+         .\Release/pcidev.obj
+         .\Release/ppi.obj
+         .\Release/ppitime.obj
+         .\Release/yh.obj
+         .\Release/DrawingManager_DD.obj
+         .\Release/tv.obj
+     1>LINK : fatal error LNK1181: 无法打开输入文件“IpCamSdk.dll”
+     1>已完成生成项目“E:\ML_GVIDMW\ML_GVIDMW.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:17.01

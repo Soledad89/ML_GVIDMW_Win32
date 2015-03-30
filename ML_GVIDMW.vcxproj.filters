@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b1f58cc7-0d55-4783-8760-85797ecc291a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\multi">
+      <UniqueIdentifier>{1efa6e11-e239-4662-9e6d-b3faf40206b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TV">
+      <UniqueIdentifier>{e97ece9a-2015-4d90-aa05-0b6760c9a384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{fa069137-919f-411e-8f47-22d8544dc986}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\multi">
+      <UniqueIdentifier>{6f3332a1-86ce-4c66-9ae6-72abcb404502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TV">
+      <UniqueIdentifier>{12562f09-992b-4098-8fc1-aac6bbd751a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5e3bee0a-ea55-4a0e-8118-1b8e12a324ac}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_THU_ML_GVID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Communication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="datapool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_GVIDMW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ML_GVIDMW_EXT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mycolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netRadar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcidev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ppi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ppitime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingManager_DD.cpp">
+      <Filter>Source Files\multi</Filter>
+    </ClCompile>
+    <ClCompile Include="TVlib\tv.cpp">
+      <Filter>Source Files\TV</Filter>
+    </ClCompile>
+    <ClCompile Include="track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ARPAInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C_THU_ML_GVID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="datapool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deqtrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fbinclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_GVIDMW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML_GVIDMW_sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mycolor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="netRadar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcictldef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcidev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ppi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ppidef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ppitime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="radarShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingManager_DD.h">
+      <Filter>Header Files\multi</Filter>
+    </ClInclude>
+    <ClInclude Include="TVlib\cxIpCamApi.h">
+      <Filter>Header Files\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="TVlib\GeVideoSDK.h">
+      <Filter>Header Files\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="TVlib\HxPlayerSdk.h">
+      <Filter>Header Files\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="TVlib\tv.h">
+      <Filter>Header Files\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="temp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="track.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="secSN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

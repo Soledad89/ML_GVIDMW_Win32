@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ML_GVIDMW - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MTd /w /W0 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ML_GVIDMW_EXPORTS" /FR"Debug/" /Fp"Debug/ML_GVIDMW.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\SenGen\multimonDll_1.0\ML_GVIDMW\ML_GVIDMW.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP59.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ML_GVIDMW.cpp
+f:\sengen\multimondll_1.0\ml_gvidmw\ar.h(41) : error C2258: illegal pure syntax, must be '= 0'
+f:\sengen\multimondll_1.0\ml_gvidmw\ar.h(41) : error C2252: 'ARcolor' : pure specifier can only be specified for functions
+f:\sengen\multimondll_1.0\ml_gvidmw\ar.h(44) : error C2258: illegal pure syntax, must be '= 0'
+f:\sengen\multimondll_1.0\ml_gvidmw\ar.h(44) : error C2252: 'oncevn' : pure specifier can only be specified for functions
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ML_GVIDMW.obj - 4 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

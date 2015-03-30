@@ -1,0 +1,105 @@
+﻿生成启动时间为 2015/3/30 10:06:38。
+     1>项目“E:\ML_GVIDMW\ML_GVIDMW.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Debug\ML_GVIDMW.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\ML_GVIDMW\TVlib /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ML_GVIDMW_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AR.cpp C_THU_ML_GVID.cpp Communication.cpp complex.cpp datapool.cpp layers.cpp mark.cpp ML_GVIDMW.cpp ML_GVIDMW_EXT.cpp mycolor.cpp mywidget.cpp netRadar.cpp painter.cpp pcidev.cpp ppi.cpp ppitime.cpp trace.cpp track.cpp yh.cpp DrawingManager_DD.cpp TVlib\tv.cpp
+         tv.cpp
+         DrawingManager_DD.cpp
+     1>e:\ml_gvidmw\drawingmanager_dd.cpp(129): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>e:\ml_gvidmw\drawingmanager_dd.cpp(433): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>e:\ml_gvidmw\drawingmanager_dd.cpp(435): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>e:\ml_gvidmw\drawingmanager_dd.cpp(437): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>e:\ml_gvidmw\drawingmanager_dd.cpp(445): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>e:\ml_gvidmw\drawingmanager_dd.cpp(447): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+     1>e:\ml_gvidmw\drawingmanager_dd.cpp(449): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“e_surface_type”
+         yh.cpp
+         track.cpp
+         trace.cpp
+         ppitime.cpp
+         ppi.cpp
+         pcidev.cpp
+         painter.cpp
+         netRadar.cpp
+         mywidget.cpp
+     1>e:\ml_gvidmw\mywidget.cpp(412): warning C4805: “!=”: 在操作中将类型“bool”与类型“int”混合不安全
+     1>e:\ml_gvidmw\mywidget.cpp(421): warning C4805: “!=”: 在操作中将类型“bool”与类型“int”混合不安全
+         mycolor.cpp
+         ML_GVIDMW_EXT.cpp
+         ML_GVIDMW.cpp
+         mark.cpp
+         layers.cpp
+         datapool.cpp
+         complex.cpp
+         Communication.cpp
+         C_THU_ML_GVID.cpp
+         正在生成代码...
+     1>e:\ml_gvidmw\ppi.cpp(508): warning C4700: 使用了未初始化的局部变量“readytobreak”
+         正在编译...
+         AR.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ML_GVIDMW.dll.embed.manifest.res" .\Debug\ML_GVIDMW_manifest.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/ML_GVIDMW.dll" /INCREMENTAL /NOLOGO IpCamSdk.lib HxPlayerSDK.lib GeVideoLib.lib ddraw.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\ML_GVIDMW.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/ML_GVIDMW.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug/ML_GVIDMW.lib" /MACHINE:X86 /DLL .\Debug\ML_GVIDMW.dll.embed.manifest.res
+         .\Debug/AR.obj
+         .\Debug/C_THU_ML_GVID.obj
+         .\Debug/Communication.obj
+         .\Debug/complex.obj
+         .\Debug/datapool.obj
+         .\Debug/layers.obj
+         .\Debug/mark.obj
+         .\Debug/ML_GVIDMW.obj
+         .\Debug/ML_GVIDMW_EXT.obj
+         .\Debug/mycolor.obj
+         .\Debug/mywidget.obj
+         .\Debug/netRadar.obj
+         .\Debug/painter.obj
+         .\Debug/pcidev.obj
+         .\Debug/ppi.obj
+         .\Debug/ppitime.obj
+         .\Debug/trace.obj
+         .\Debug/track.obj
+         .\Debug/yh.obj
+         .\Debug/DrawingManager_DD.obj
+         .\Debug/tv.obj ddraw.lib dxguid.lib 
+            正在创建库 .\Debug/ML_GVIDMW.lib 和对象 .\Debug/ML_GVIDMW.exp
+       Manifest:
+         正在删除文件“.\Debug\ML_GVIDMW.dll.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\ML_GVIDMW.dll.embed.manifest" /manifest .\Debug\ML_GVIDMW.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ML_GVIDMW.dll.embed.manifest.res" .\Debug\ML_GVIDMW_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/ML_GVIDMW.dll" /INCREMENTAL /NOLOGO IpCamSdk.lib HxPlayerSDK.lib GeVideoLib.lib ddraw.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\ML_GVIDMW.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/ML_GVIDMW.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug/ML_GVIDMW.lib" /MACHINE:X86 /DLL .\Debug\ML_GVIDMW.dll.embed.manifest.res
+         .\Debug/AR.obj
+         .\Debug/C_THU_ML_GVID.obj
+         .\Debug/Communication.obj
+         .\Debug/complex.obj
+         .\Debug/datapool.obj
+         .\Debug/layers.obj
+         .\Debug/mark.obj
+         .\Debug/ML_GVIDMW.obj
+         .\Debug/ML_GVIDMW_EXT.obj
+         .\Debug/mycolor.obj
+         .\Debug/mywidget.obj
+         .\Debug/netRadar.obj
+         .\Debug/painter.obj
+         .\Debug/pcidev.obj
+         .\Debug/ppi.obj
+         .\Debug/ppitime.obj
+         .\Debug/trace.obj
+         .\Debug/track.obj
+         .\Debug/yh.obj
+         .\Debug/DrawingManager_DD.obj
+         .\Debug/tv.obj ddraw.lib dxguid.lib 
+            正在创建库 .\Debug/ML_GVIDMW.lib 和对象 .\Debug/ML_GVIDMW.exp
+         ML_GVIDMW.vcxproj -> E:\ML_GVIDMW\.\Debug\ML_GVIDMW.dll
+       BscMake:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/ML_GVIDMW.bsc" .\Debug\AR.sbr .\Debug\C_THU_ML_GVID.sbr .\Debug\Communication.sbr .\Debug\complex.sbr .\Debug\datapool.sbr .\Debug\layers.sbr .\Debug\mark.sbr .\Debug\ML_GVIDMW.sbr .\Debug\ML_GVIDMW_EXT.sbr .\Debug\mycolor.sbr .\Debug\mywidget.sbr .\Debug\netRadar.sbr .\Debug\painter.sbr .\Debug\pcidev.sbr .\Debug\ppi.sbr .\Debug\ppitime.sbr .\Debug\trace.sbr .\Debug\track.sbr .\Debug\yh.sbr .\Debug\DrawingManager_DD.sbr .\Debug\tv.sbr
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\ML_GVIDMW.unsuccessfulbuild”。
+         正在对“.\Debug\ML_GVIDMW.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\ML_GVIDMW\ML_GVIDMW.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:31.72
